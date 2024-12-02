@@ -571,6 +571,22 @@ display: inline-block;
         align-items: center;
       }
     }
+@media screen and (max-width: 768px) {
+    nav .nav-container {
+        flex-direction: column; 
+        gap: 10px;
+    }
+    .hero h1 {
+        font-size: 2.5rem;
+    }
+    .about-content {
+        flex-direction: column;
+        text-align: center; /* Align text for readability */
+    }
+    .about-image img {
+        width: 80%;
+    }
+}
 
 #education {
     background-color:MistyRose; 
@@ -657,11 +673,11 @@ display: inline-block;
     width: 120px; 
     height: 25px; 
 }
-	 #datetime {
-            font-size: 1em;
-            color: Crimson;
+#datetime {
+   font-size: 1em;
+   color: Crimson;
                     }
-	#table2 {
+#table2 {
   margin: 0 auto; 
   border-collapse: collapse; 
   text-align: center; 
